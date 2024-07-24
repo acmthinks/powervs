@@ -1,0 +1,22 @@
+# IBM Cloud API key allowed to create resource group, VPC, VSI, SSH key
+ibmcloud_api_key=""
+
+prefix="demo"
+resource_group = "demo-rg"
+
+# IBM Region e.g., us-south, us-east, eu-gb, au-syd...
+#ibm_cloud_region="us-south"
+
+
+# Secrets Manager variables
+secrets_manager_instance_crn = ""
+ssh_key_secret_name = ""
+ssh_key_secret_group_name = ""
+
+
+#CRN of the PowerVS Workspace in the "CS Patterns" account
+powervs_workspace_crn = ""
+powervs_subnet_cidr = ""
+#powervs_instance_cores = ".25"
+#powervs_instance_memory = 2
+#powervs_system_type = "s922"
